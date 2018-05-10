@@ -45,9 +45,9 @@ p {
 hr {
     border: 0;
     width: 70%;
-    margin: 0 15% 0 15%;
+    margin: 60px 15% 60px 15%;
     background-color:  rgba(177, 133, 134, 0.8);
-    border-top: 2px dashed rgb(232,232,232);
+    border-top: 3px dashed rgb(232,232,232);
 }
 
 i{
