@@ -1,0 +1,32 @@
+ul li:before {
+    content: "\25CD" !important;
+    padding-right: 10px;
+}
+ul li{
+    list-style-type: none;
+}
+
+.list-title{
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+    color: floralwhite;
+    font-weight: bold;
+}
+
+.list-subtitle{
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    color: rgb(245,245,245);
+;
+    font-weight: bold;
+}
+
+.list-text{
+    font-family: 'Abel', sans-serif;
+    font-size: 18px;
+    color: rgb(56,56,56);
+}
+
+li p{
+    margin-left: 25px;
+}
