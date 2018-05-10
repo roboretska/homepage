@@ -10,7 +10,6 @@
     margin-left: 10px;
     margin-bottom: 0;
 }
-
 h3 {
     font-family: 'Nunito', sans-serif;
     font-size: 20px;
@@ -19,7 +18,6 @@ h3 {
     margin-top: 0;
 
 }
-
 p {
     font-family: 'Abel', sans-serif;
     font-size: 20px;
@@ -27,21 +25,17 @@ p {
     margin-left: 10px;
     margin-right: 10px;
 }
-
 .info-block{
     background-color:rgb(217,186,192) !important;
 }
-
 .background{
     background-color: 	rgb(232,232,232) !important;
 
 }
-
 .no-vertical-margin{
     margin-top: -10px !important;
     margin-bottom: -10px !important;
 }
-
 hr {
     border: 0;
     width: 70%;
@@ -49,7 +43,12 @@ hr {
     background-color:  rgba(177, 133, 134, 0.8);
     border-top: 3px dashed rgb(232,232,232);
 }
-
 i{
     color: rgb(56,56,56);
+}
+.contacts{
+    margin-left: -25px;
+}
+.main-block{
+    height: 70%;
 }
