@@ -1,18 +1,93 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">
-    <title>Hrystyna Roboretska - Résumé</title>
-    <link rel="me" href="mailto:christina.roboretska@gmail.com">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Just my resume">
-    <meta name="robots" content="index,follow">
-    <meta name="googlebot" content="index,follow">
-    <meta name="google" content="nositelinkssearchbox">
-    <meta name="google" content="notranslate">
-    <link rel="shortcut icon" href="icons/cupcake.png" type="image/png">
+      <meta charset="UTF-8">
+      <title>Khrystyna Roboretska - Résumé</title>
+      <link rel="me" href="mailto:christina.roboretska@gmail.com">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="Just my resume">
+      <meta name="robots" content="index,follow">
+      <meta name="googlebot" content="index,follow">
+      <meta name="google" content="nositelinkssearchbox">
+      <meta name="google" content="notranslate">
+      <link rel="shortcut icon" href="icons/cupcake.png" type="image/png">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/components/container.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/components/segment.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/components/grid.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/components/image.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/components/icon.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+      <link href="./style/main.css" rel="stylesheet">
+      <link href="./style/list.css" rel="stylesheet">
+      <link href="./style/image.css" rel="stylesheet">
+      <link href="./style/links.css" rel="stylesheet">
+      <script src="./scripts/main.js"></script>;
   </head>
   <body>
-    — Hello, world!
+    <div class="ui container no-vertical-margin">
+        <div class="ui segment background no-vertical-margin">
+            <div class="ui grid no-vertical-margin">
+                <div class="six wide column ">
+                    <div class="ui row segment main-container">
+                        <div class="image-container">
+                            <img class="ui fluid image" id="picture" onmouseover="MouseOver()" onmouseout="MouseOut()" src="./picture/floral.jpg">
+                        </div>
+                        <h1 class="name">Hrystyna Roboretska</h1>
+                        <h3>20, Lviv Polytechnic University</h3>
+                        <hr>
+                        <p>Welcome to my résumé page.<br>
+                            I'm just a person who love programming and going to improve my skills in this sphere.<br>
+                            Working on my diploma now.</p>
+                    </div>
+                </div>
+                <div class="eight wide column">
+                    <div class="ui row segment info-block marked">
+                        <ul><h2 class="list-title">Story of getting into programming:</h2>
+                            <li ><span class="list-subtitle">2013</span>
+                                <p class="list-text">Got first experience with programming and was interested.</p>
+                            </li>
+                            <li><span class="list-subtitle">2014</span>
+                                <p class="list-text">Started to studying in Lviv Polytechnic University at Computer Science.</p>
+                            </li>
+                            <li><span class="list-subtitle">2015</span>
+                                <p class="list-text">Got first experience programing at C++</p>
+                            </li>
+                            <li><span class="list-subtitle">2017</span>
+                                <p class="list-text">Created first client-server application in PHP, JavaScript, MySQL, HTML and CSS.
+                                    Got interested in JavaScript. First time created UML-diagrams.</p>
+                            </li>
+                            <li><span class="list-subtitle">2018</span>
+                                <p class="list-text">Discovered for myself Node.js and React.
+                               Got acquainted with REST and Agile development(Kanban and Scrum).</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="ui row segment info-block marked">
+                        <ul > <h2 class="list-title">Skills:</h2>
+                            <li ><span class="list-subtitle">HTML and CSS</span></li>
+                            <li ><span class="list-subtitle">JavaScript</span></li>
+                            <li ><span class="list-subtitle">Node.js and npm</span></li>
+                            <li ><span class="list-subtitle">React</span></li>
+                            <li ><span class="list-subtitle">SQL</span></li>
+                            <li ><span class="list-subtitle">UML</span></li>
+                        </ul>
+                    </div>
+                    <div class="ui row segment info-block">
+                        <ul><h2 class="list-title">Contacts</h2>
+                            <li ><i class="map marker alternate icon"></i>
+                                <span class="list-subtitle">Ukraine, Lviv</span></li>
+                            <li ><a href="mailto:christina.roboretska@gmail.com"><i class="envelope outline icon"></i>
+                                <span class="list-subtitle">E-mail</span></a></li>
+                            <li ><a href="https://github.com/roboretska" target="_blank"><i class="git square icon"></i> <span class="list-subtitle">GitHub</span></a></li>
+                            <li ><a href="https://t.me/hrystyna_roberetska" target="_blank"><i class="telegram plane icon"></i><span class="list-subtitle">Telegram</span></a></li>
+                            <li ><a href="https://www.facebook.com/christina.roboretska" target="_blank"><i class="facebook icon"></i><span class="list-subtitle">Facebook</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
   </body>
 </html>
