@@ -1,3 +1,8 @@
 img {
-
+    border-radius: 100%;
+    border: 7px solid floralwhite;
+    margin-left: -10px;
+}
+.image-container{
+    margin: 30px 25%;
 }
