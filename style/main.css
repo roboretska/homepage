@@ -1,0 +1,22 @@
+.main-container{
+    background-color: rgba(177, 133, 134, 0.8) !important;
+}
+.name{
+    color: floralwhite;
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    color: rgb(232,232,232);
+}
+
+* {
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    color: rgb(16,16,16);
+}
